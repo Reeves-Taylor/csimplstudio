@@ -1,0 +1,49 @@
+body {
+    background-color: #303030; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.topBar {
+    margin: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    height: 2vw;
+    background-color: #999999;
+    z-index: -1;
+}
+
+.logo {
+    width: 1.7vw; 
+    height: 1.7vw;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.title {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    position: relative;
+    top: -3.2vw;
+    left: calc(50% - 1.5vw);
+    z-index: 1;
+}
+
+.titleOutline {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(1.5vw + .1px);
+    position: relative;
+    top: -6.35vw;
+    left: calc(50% - (1.5vw + .1px));
+    z-index: 0;
+}
+
+.TopContent {
+    color: #000000;
+    background-color: #808080;
+    padding: 10px;
+    margin: 10px;
+}
